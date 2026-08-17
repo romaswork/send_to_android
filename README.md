@@ -6,8 +6,8 @@
 
 ## Установка
 
-Готовое приложение лежит в репозитории — собирать ничего не нужно:
-**[скачать SendToAndroid.app.zip](https://github.com/romaswork/send_to_android/raw/main/dist/SendToAndroid.app.zip)** (54 КБ, Apple Silicon, macOS 13+).
+Готовое приложение лежит в релизах — собирать ничего не нужно:
+**[скачать SendToAndroid.app.zip](https://github.com/romaswork/send_to_android/releases/latest/download/SendToAndroid.app.zip)** (54 КБ, Apple Silicon, macOS 13+).
 
 Распаковать, положить в «Программы» и один раз снять карантин — приложение подписано ad-hoc,
 без этого macOS не даст его запустить:
@@ -57,8 +57,8 @@ A macOS menu bar icon → a small window → drop files in → they fly to your 
 
 ## Install
 
-The built app is in the repository, so there is nothing to compile:
-**[download SendToAndroid.app.zip](https://github.com/romaswork/send_to_android/raw/main/dist/SendToAndroid.app.zip)** (54 KB, Apple Silicon, macOS 13+).
+The built app is published in Releases, so there is nothing to compile:
+**[download SendToAndroid.app.zip](https://github.com/romaswork/send_to_android/releases/latest/download/SendToAndroid.app.zip)** (54 KB, Apple Silicon, macOS 13+).
 
 Unzip it, move it to Applications and remove the quarantine flag once — the app is ad-hoc signed,
 and without this macOS refuses to launch it:
