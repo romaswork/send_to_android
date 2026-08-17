@@ -2,14 +2,26 @@
 
 Иконка в трее macOS → окошко → перетаскиваешь файлы → они улетают на Android по `adb`.
 
-## Сборка
+## Установка
+
+Готовое приложение лежит в репозитории — собирать ничего не нужно:
+**[скачать SendToAndroid.app.zip](https://github.com/romaswork/send_to_android/raw/main/dist/SendToAndroid.app.zip)** (54 КБ, Apple Silicon, macOS 13+).
+
+Распаковать, положить в «Программы» и один раз снять карантин — приложение подписано ad-hoc,
+без этого macOS не даст его запустить:
+
+```bash
+xattr -dr com.apple.quarantine /Applications/SendToAndroid.app
+```
+
+Нужен только `adb`: `brew install --cask android-platform-tools`, на телефоне — отладка по USB.
+
+## Сборка из исходников
 
 ```bash
 ./build.sh            # build/SendToAndroid.app
 ./build.sh --install  # сразу в /Applications
 ```
-
-Нужен только `adb`: `brew install --cask android-platform-tools`, на телефоне — отладка по USB.
 
 ## Как пользоваться
 
